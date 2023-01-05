@@ -20,7 +20,7 @@ function dynamicContentDetails(ob)
 
     let imgTag = document.createElement('img')
      imgTag.id = 'imgDetails'
-     //imgTag.id = ob.photos
+    
      imgTag.src = ob.preview
 
     imageSectionDiv.appendChild(imgTag)
@@ -28,7 +28,7 @@ function dynamicContentDetails(ob)
     let productDetailsDiv = document.createElement('div')
     productDetailsDiv.id = 'productDetails'
 
-    // console.log(productDetailsDiv);
+   
 
     let h1 = document.createElement('h1')
     let h1Text = document.createTextNode(ob.name)
@@ -121,7 +121,7 @@ function dynamicContentDetails(ob)
 
 
 
-// BACKEND CALLING
+
 
 let httpRequest = new XMLHttpRequest()
 {
